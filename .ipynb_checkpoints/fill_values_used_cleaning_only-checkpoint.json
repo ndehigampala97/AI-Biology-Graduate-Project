@@ -1,0 +1,49 @@
+{
+  "input_csv": "g2f_2023_phenotypic_clean_data.csv",
+  "output_csv": "g2f_2023_phenotypic_model_ready.csv",
+  "target": "Grain Yield (bu/A)",
+  "dropped_columns": [
+    "Filler",
+    "Comments",
+    "Plot Discarded [enter 'yes' or blank]",
+    "Plot_ID",
+    "Plot",
+    "Range",
+    "Pass",
+    "Tester",
+    "Snap [# of plants]",
+    "Silking [MM/DD/YY]",
+    "Anthesis [MM/DD/YY]",
+    "Date Plot Harvested [MM/DD/YY]",
+    "Date Plot Planted [MM/DD/YY]"
+  ],
+  "numeric_fill_values": {
+    "Year": 2023.0,
+    "Plot length (center-center in feet)": 20.0,
+    "Plot area (ft2)": 87.5,
+    "Alley length (in inches)": 36.0,
+    "Row spacing (in inches)": 30.0,
+    "Rows per plot": 2.0,
+    "# Seed per plot": 90.0,
+    "Replicate": 2.0,
+    "Block": 11.0,
+    "Anthesis [days]": 67.0,
+    "Silking [days]": 69.0,
+    "Plant Height [cm]": 235.0,
+    "Ear Height [cm]": 104.0,
+    "Stand Count [# of plants]": 61.0,
+    "Root Lodging [# of plants]": 0.0,
+    "Stalk Lodging [# of plants]": 0.0,
+    "Grain Moisture [%]": 17.7,
+    "Test Weight [lbs]": 56.3,
+    "Plot Weight [lbs]": 19.86
+  },
+  "categorical_fill_values": {
+    "Field-Location": "IAH3",
+    "State": "IA",
+    "City": "College Station ",
+    "Experiment": "G2F_Main",
+    "Pedigree": "B73/TX779",
+    "Family": "CHECK"
+  }
+}
